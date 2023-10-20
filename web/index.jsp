@@ -16,8 +16,12 @@
 <h1>留言页面</h1>
 
 <form action="MessageServlet" method="POST">
-  用户名称：<input type="text" name="user"><br>
-  留言内容：<textarea name="message"></textarea><br>
+  用户名称：<label>
+  <input type="text" name="user">
+</label><br>
+  留言内容：<label>
+  <textarea name="message"></textarea>
+</label><br>
   <input type="submit" value="提交">
 </form>
 </body>
